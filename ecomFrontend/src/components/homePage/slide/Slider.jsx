@@ -14,7 +14,7 @@ const Slider = ({ images }) => {
   }, [length]);
 
   return (
-    <section className="relative flex justify-center items-center">
+    <section className="relative flex justify-center items-cente">
       {images.map((image, index) => (
         <div
           className={index === current ? 'opacity-100 transition duration-1000' : 'opacity-0 transition duration-1000 ease-out'}

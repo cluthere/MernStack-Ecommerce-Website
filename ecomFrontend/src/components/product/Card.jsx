@@ -4,7 +4,7 @@ import p2 from "../assets/p2.jpg"
 export default function Card() {
   return (
     <>
-      <div className="max-w lg:mt-12 lg:ml-2 sm:max-w-md rounded-md shadow-md dark:bg-white dark:text-black mb-2">
+      <div className="max-w lg:mt-12  sm:max-w-md rounded-md shadow-md dark:bg-white dark:text-black mb-2">
         <img
           src={p2}
           alt=""
