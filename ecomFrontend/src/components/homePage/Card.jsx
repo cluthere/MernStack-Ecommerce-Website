@@ -8,7 +8,7 @@ export default function Card() {
         <img
           src={p2}
           alt=""
-          className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500"
+          className="object-cover object-center w-full rounded-t-md lg:h-64 dark:bg-gray-500"
         />
         {/* space and padding for card size change  */}
         <div className="flex flex-col justify-between lg:space-y-0 lg:p-3 lg:pb-4 p-6 space-y-5">

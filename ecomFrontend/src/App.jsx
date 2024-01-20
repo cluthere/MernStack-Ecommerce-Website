@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Products from "./components/product/Products";
+// import Products from "./components/product/Products";
 import About from "./components/contact_about/About";
 import Contact from "./components/contact_about/Contact"
 import Home from "./components/homePage/Home";
@@ -17,7 +17,7 @@ export default function App(){
     <div>
     <Routes>
       <Route path="/" element={<Home/>} />
-      <Route path="/products" element={<Products/>} />
+      {/* <Route path="/products" element={<Products/>} /> */}
       <Route path="/contact" element={<Contact/>} />
       <Route path="/about" element={<About/>} />
     </Routes>

@@ -9,7 +9,7 @@ export default function Images(){
   const images = [p2, p3, p4];
 
   return (
-    <div className="pt-12 lg:ml-60">
+    <div className=" flex pt-12 lg:ml-60 lg:h-2/3">
       <Slider images={images} />
     </div>
   );
