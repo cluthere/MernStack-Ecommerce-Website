@@ -10,7 +10,7 @@ export default function Banner() {
               Up to 
               <br className="sm:hidden" />
               &nbsp;
-              50% Off for First Time Shopper
+              30% Off for First Time Shopper
             </h2>
             <div className="space-x-2 text-center lg:mr-12 lg:py-0">
               <span>Plus free shipping! Use code:</span>

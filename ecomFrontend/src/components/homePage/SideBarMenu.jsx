@@ -3,84 +3,83 @@ import React from "react";
 export default function SideBarMenu() {
   return (
     <>
-      <aside className="w-full p-6 sm:w-60  dark:bg-gray-200 shadow dark:text-gray-700">
-        <nav className="space-y-8 text-sm">
+      <aside className="w-full p-4 sm:w-60 dark:bg-gray-200 shadow dark:text-gray-700">
+        <nav className="space-y-4 text-sm">
           <div className="space-y-2">
             <h2 className="text-sm font-semibold tracki uppercase dark:text-blue-600">
-              Getting Started
+              Apple
             </h2>
             <div className="flex flex-col space-y-1">
               <a rel="noopener noreferrer" href="#">
-                Installation
+                Iphones
               </a>
               <a rel="noopener noreferrer" href="#">
-                Plugins
+                MacBook
               </a>
               <a rel="noopener noreferrer" href="#">
-                Migrations
+                Ipad
               </a>
               <a rel="noopener noreferrer" href="#">
-                Appearance
+                Mac
               </a>
               <a rel="noopener noreferrer" href="#">
-                Mamba UI
+                Apple Watch
               </a>
             </div>
           </div>
           <div className="space-y-2">
             <h2 className="text-sm font-semibold tracki uppercase dark:text-blue-600">
-              Dashboard
+              Samsung
             </h2>
             <div className="flex flex-col space-y-1">
               <a rel="noopener noreferrer" href="#">
-                Header
+                Galaxy Phone
               </a>
               <a rel="noopener noreferrer" href="#">
-                Drawer
+                Galaxy Watch
               </a>
               <a rel="noopener noreferrer" href="#">
-                Page Title
+                Galaxy Tab
               </a>
               <a rel="noopener noreferrer" href="#">
-                Menus
+              Galaxy Buds             </a>
+              <a rel="noopener noreferrer" href="#">
+                Laptop
               </a>
               <a rel="noopener noreferrer" href="#">
-                Sidebar
-              </a>
-              <a rel="noopener noreferrer" href="#">
-                Footer
+                Moniter
               </a>
             </div>
           </div>
           <div className="space-y-2">
             <h2 className="text-sm font-semibold tracki uppercase dark:text-blue-600">
-              Pages
+              Google Pixel
             </h2>
             <div className="flex flex-col space-y-1">
               <a rel="noopener noreferrer" href="#">
-                Homepage
+                Pixel Phone
               </a>
               <a rel="noopener noreferrer" href="#">
-                Users
+                Pixel Watch
               </a>
               <a rel="noopener noreferrer" href="#">
-                Tools
+                Pixel Buds
               </a>
               <a rel="noopener noreferrer" href="#">
-                Settings
+                ChromeBooks
               </a>
             </div>
           </div>
           <div className="space-y-2">
             <h2 className="text-sm font-semibold tracki uppercase dark:text-blue-600">
-              Misc
+              Others
             </h2>
             <div className="flex flex-col space-y-1">
               <a rel="noopener noreferrer" href="#">
-                Tutorials
+              Phone Accessories
               </a>
               <a rel="noopener noreferrer" href="#">
-                Changelog
+              Other Phone Brands
               </a>
             </div>
           </div>
