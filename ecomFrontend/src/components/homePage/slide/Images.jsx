@@ -10,7 +10,7 @@ export default function Images(){
 
   return (
     // <div className=" flex ">
-    <div className='pt-12 lg:ml-60 lg:h-2/3 '>
+    <div className='pt-12 lg:h-2/3 '>
       <Slider images={images} />
     </div>
   );

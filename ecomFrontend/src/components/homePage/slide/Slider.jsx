@@ -8,13 +8,13 @@ const Slider = ({ images }) => {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrent(current => (current === length - 1 ? 0 : current + 1));
-    }, 3500); // Change slide every 3.5 seconds
+    }, 4000); // Change slide every 3.5 seconds
 
     return () => clearInterval(timer); // Clean up on component unmount
   }, [length]);
 
   return (
-    <section className="relative flex justify-center items-cente">
+    <section className="relative flex justify-center items-cente w-auto h-96">
       {images.map((image, index) => (
         <div
           className={index === current ? 'opacity-100 transition duration-1000' : 'opacity-0 transition duration-1000 ease-out'}

@@ -1,39 +1,40 @@
 import React from "react";
 
 import Images from "../homePage/slide/Images";
-import Card from "./Card";
+import Card from "./pages/Card";
 import Ap from "../FourRules/Ap";
-import SideBarMenu from "./SideBarMenu";
-import DealsCard from "./DealsCard";
-import DealsCard2 from "./DealsCard2";
+import SideBarMenu from "./pages/SideBarMenu";
+import DealsCard from "./pages/DealsCard";
+import DealsCard2 from "./pages/DealsCard2";
 
-import Banner from "./Banner";
-import Card2 from "./Card2";
-import TopBrand from "./TopBrand";
+import Banner from "./pages/Banner";
+import Card2 from "./pages/Card2";
+import TopBrand from "./pages/TopBrand";
 
 export default function Home() {
   return (
     <>
-      <div className="grid grid-cols-1 lg:grid-flow-col lg:auto-cols-3 lg:mt-6">
-        <div className="mt-12"><SideBarMenu/></div>
-        <div ><Images/></div>
-        <div ><Card/></div>
-        </div>
-        <div><Banner/></div>
+      <div className="lg:mt-6">
         <div>
-          <div><DealsCard/></div>
-
-          <div><DealsCard2/></div>
-          <div><TopBrand/></div>
-          
-         
-    
-          
+          <Images />
         </div>
-               
-       
-        <div></div>
-      
+        <div>
+          <DealsCard />
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <DealsCard2 />
+        </div>
+        <div>
+          <TopBrand />
+        </div>
+      </div>
+
+      <dvi></dvi>
+
+   
     </>
   );
 }

@@ -26,19 +26,20 @@ export default function TopBrand() {
   ];
   return (
     <>
-      <section className="py-6 dark:bg-gray-200 dark:text-blue-600">
-        <div className="container p-4 mx-auto space-y-16 sm:p-10">
-          <div className="space-y-4">
+      <section className="py-6 dark:bg-white dark:text-blue-600">
+        <div className="container p-4 mx-auto  space-y-16 sm:p-10">
+          <div className="space-y-4 flex justify-center">
             <h3 className="text-2xl font-bold leadi sm:text-5xl">Top Brands</h3>
           </div>
           <div className="grid w-full grid-cols-1 gap-6 md:grid-cols-2">
             {brands.map((item)=>(
-                <div className="flex space-x-6 hover:cursor-pointer">
+                <div className="flex space-x-6 hover:cursor-pointer  transition ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-105 hover:shadow-xl  duration-300">
                   <img
                     alt=""
                     className="flex-1 flex-shrink-0 object-cover h-56 mb-4 bg-center rounded-sm dark:bg-gray-500"
                     src={item.image}
                   />
+               
                 </div>
             ))}      
           </div>
