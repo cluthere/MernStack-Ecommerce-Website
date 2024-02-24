@@ -22,9 +22,13 @@ const orderSchema = new mongoose.Schema({
     },
     orderItmes:{
         type:[orderItemsSchema],
+    },
+    status:{
+        type:String,
         enum:["PENDING", "CANCELLED", "DELIVERED"],
         default:"PENDING"
     }
+
 },{timestamps:true});
 
-export const Order = mongoose.model("Order", orderSchema)
+export const Order = mongoose.model("Order", orderSchema)   
