@@ -1,1 +1,2 @@
-const DB_NAME = "ecomdb";
+export let DB_NAME = "ecomdb";
+
